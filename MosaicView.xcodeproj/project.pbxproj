@@ -15,6 +15,9 @@
 		CF339E2620E8FEB7005E0A51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF339E2520E8FEB7005E0A51 /* main.m */; };
 		CF339E3020E8FEB8005E0A51 /* MosaicViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF339E2F20E8FEB8005E0A51 /* MosaicViewTests.m */; };
 		CF339E3B20E8FEB8005E0A51 /* MosaicViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF339E3A20E8FEB8005E0A51 /* MosaicViewUITests.m */; };
+		CF339E4A20E901B9005E0A51 /* ScratchCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF339E4920E901B9005E0A51 /* ScratchCardView.m */; };
+		CF339E4C20E9CDE5005E0A51 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF339E4B20E9CDE5005E0A51 /* 6.jpg */; };
+		CF339E5220E9EBB5005E0A51 /* p2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CF339E5120E9EBB5005E0A51 /* p2.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		CF339E3620E8FEB8005E0A51 /* MosaicViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosaicViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF339E3A20E8FEB8005E0A51 /* MosaicViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosaicViewUITests.m; sourceTree = "<group>"; };
 		CF339E3C20E8FEB8005E0A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF339E4820E901B9005E0A51 /* ScratchCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScratchCardView.h; sourceTree = "<group>"; };
+		CF339E4920E901B9005E0A51 /* ScratchCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchCardView.m; sourceTree = "<group>"; };
+		CF339E4B20E9CDE5005E0A51 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		CF339E5120E9EBB5005E0A51 /* p2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +108,14 @@
 		CF339E1520E8FEB6005E0A51 /* MosaicView */ = {
 			isa = PBXGroup;
 			children = (
+				CF339E5120E9EBB5005E0A51 /* p2.JPG */,
+				CF339E4B20E9CDE5005E0A51 /* 6.jpg */,
 				CF339E1620E8FEB6005E0A51 /* AppDelegate.h */,
 				CF339E1720E8FEB6005E0A51 /* AppDelegate.m */,
 				CF339E1920E8FEB6005E0A51 /* ViewController.h */,
 				CF339E1A20E8FEB6005E0A51 /* ViewController.m */,
+				CF339E4820E901B9005E0A51 /* ScratchCardView.h */,
+				CF339E4920E901B9005E0A51 /* ScratchCardView.m */,
 				CF339E1C20E8FEB6005E0A51 /* Main.storyboard */,
 				CF339E1F20E8FEB7005E0A51 /* Assets.xcassets */,
 				CF339E2120E8FEB7005E0A51 /* LaunchScreen.storyboard */,
@@ -236,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF339E2320E8FEB7005E0A51 /* LaunchScreen.storyboard in Resources */,
+				CF339E5220E9EBB5005E0A51 /* p2.JPG in Resources */,
+				CF339E4C20E9CDE5005E0A51 /* 6.jpg in Resources */,
 				CF339E2020E8FEB7005E0A51 /* Assets.xcassets in Resources */,
 				CF339E1E20E8FEB6005E0A51 /* Main.storyboard in Resources */,
 			);
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF339E1B20E8FEB6005E0A51 /* ViewController.m in Sources */,
+				CF339E4A20E901B9005E0A51 /* ScratchCardView.m in Sources */,
 				CF339E2620E8FEB7005E0A51 /* main.m in Sources */,
 				CF339E1820E8FEB6005E0A51 /* AppDelegate.m in Sources */,
 			);
@@ -434,7 +448,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = MosaicView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +466,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = MosaicView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
