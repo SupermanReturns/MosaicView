@@ -32,7 +32,7 @@
     _cardView.surfaceImage=image;
     
 //    _cardView.image=[self transToMosaicImage:image blockLevel:20];
-    _cardView.image=image2;
+    _cardView.image=image2;//底层图片
 
     [self.view addSubview:_cardView];
     // Do any additional setup after loading the view, typically from a nib.
